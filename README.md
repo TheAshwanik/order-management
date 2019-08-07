@@ -1,31 +1,30 @@
 Order Management
 
-Member: Nguyễn Văn Bảy
+Member: Nguyen Van Bay
 
-Redmine:
-https://edu-redmine.sun-asterisk.vn/projects/daily-noth
+Redmine: https://edu-redmine.sun-asterisk.vn/projects/daily-noth
 
-Deadline: 23/07/2019
+Deadline: 07/23/2019
 
 Redmine Flow
-1. Tất cả công việc cần làm (Bug/Task/Feature/Support) phải được tạo ticket trước rồi mới thực hiện. Lưu ý ticket cần có description rõ ràng.
 
-2. Trainee update ticket
-- Update đầy đủ thông tin Start date, Due date, Estimated time, 
-- Chuyển trạng thái sang "In Progress"
-- Assign cho chính mình.
+All work to be done (Bug / Task / Feature / Support) must be created before making a ticket. Note the ticket needs a clear description.
 
-3.  Trainee làm xong tạo pull request
-- Comment link pull request đó vào ticket
-- Chuyển % Done thành 90 %
-- Update Spent time 
-- Chuyển trạng thái ticket sang Reviewing
+Trainee update ticket
 
-4. Trainee gửi pull cho trainer để review
-- Nếu pull được merged thì chuyển tới bước 5
-- Nếu pull có comment cần sửa thì quay lại bước 2
-5. Sau khi pull được merged
- - Trainee update % Done của ticket thành 100 %, chuyển status thành Resolved.
-6. Trainee thực hiện test lại task của mình
- - Nếu test pass, chuyển status của task thành close.
- - Nếu test fail, quay lại bước 2
+Update all the information boxes Start date, Due date, Estimated time,
+Change status to "In Progress"
+Assign to yourself.
+Trainee finished creating a pull request
+Comment the pull request link on the ticket
+Convert% Done to 90%
+Update Spent time
+Change ticket status to Reviewing
+Trainee sends a pull to the trainer for review
+If the pull is merged, skip to step 5
+If the pull has comments that need fixing, return to step 2
+After the pull is merged
+Trainee updates% Done of the ticket to 100%, changing status to Resolved.
+Trainee re-tested her task
+If the test pass, change the status of the task to close.
+If the test fails, return to step 2
